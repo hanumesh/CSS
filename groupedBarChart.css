@@ -1,11 +1,11 @@
 #chart
 svg {
-    width: 100%;
+    width: 200%;
     height: 100%;
     position: center;
 }
 .toolTip {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    //font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     position: absolute;
     display: none;
     width: auto;
@@ -15,21 +15,23 @@ svg {
     border: 0 none;
     border-radius: 8px 8px 8px 8px;
     color: black;
-    font: 14px sans-serif;
+    font: 20px bold;
     padding: 20px;
     text-align: center;
 }
 .legend {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 80%;
+   // font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 200%;
+    font: 20px bold;
 }
 text {
-    font: 8px sans-serif;
+    font: 14px bold;
     fill: #FFF;
 }
-.axis text {
-    font: 6.4px sans-serif;
-    padding: 2px;
+.axis text {  
+    width : 30px
+    font: 10px bold;
+    text-overflow: ellipsis;
 }
 .axis path{
     fill: none;
