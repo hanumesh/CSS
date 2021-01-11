@@ -10,7 +10,7 @@ svg {
     display: none;
     width: auto;
     height: auto;
-    background: white;
+   // background: white;
     opacity: 0.85;
     border: 0 none;
     border-radius: 8px 8px 8px 8px;
@@ -20,17 +20,18 @@ svg {
     text-align: center;
 }
 .legend {
-   // font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 200%;
-    font: 20px bold;
+    font: 16px bold !important;
+    padding : 1px;
 }
 text {
-    font: 14px bold;
+    font: 14px bold !important;
     fill: #FFF;
 }
 .axis text {  
-    width : 30px
-    font: 10px bold;
+    margin-left : 200px !important;
+    font: 14px bold !important;
     text-overflow: ellipsis;
 }
 .axis path{
